@@ -8,12 +8,8 @@ public class Main {
         System.out.println(ageOftemperatur(23, 45));
         System.out.println(ageOftemperatur(44, 34));
 
-        Random rand = new Random();
-        for (int i = 0; i < 100; i++) {
-            System.out.println("можно идти гулять");
-            System.out.println(rand.nextInt(8) + 1);
         }
-    }
+
 
     public static String ageOftemperatur(int age, int temperatur) {
         if (age > 20 && age < 45 && temperatur > -20 && temperatur < 30) {
@@ -26,7 +22,7 @@ public class Main {
             return "Оставайтесь дома";
         }
     }
-    
+
 
 
 }
